@@ -27,3 +27,6 @@ $('.js-tilt-web').tilt({
     glare:true,
     maxGlare:.5
 });
+$('.js-tilt-web').tilt({
+    scale:1.1
+});

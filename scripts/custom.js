@@ -18,9 +18,10 @@ $(function(){
   // ------- JQUERY PARALLAX ---- //
   function initParallax() {
     $('#home').parallax("100%", 0.1);
-    $('#gallery').parallax("100%", 0.3);
-    $('#menu').parallax("100%", 0.2);
-    $('#team').parallax("100%", 0.3);
+    $('#about').parallax("100%", 0.3);
+    $('#portfolio').parallax("100%", 0.2);
+    $('#skills').parallax("100%", 0.3);
+    $('#resume').parallax("100%", 0.1);
     $('#contact').parallax("100%", 0.1);
 
   }
