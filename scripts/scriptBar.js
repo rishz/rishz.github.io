@@ -78,5 +78,6 @@ $(document).ready(function(){
      * We have to do a first detectation of offset because the page
      * could be load with scroll down set.
      */
+    console.log('WORKING');
     offSetManager();
 });

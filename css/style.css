@@ -47,7 +47,7 @@ footer {
     height: 15vw;
     display: block;
     background-color: #0a0301;
-    background-image: linear-gradient(135deg, #e73b03 0%, #2d0e04 100%, #0a0301 100%);
+    background-image: linear-gradient(135deg, #f54000 0%, #2d0e04 100%, #0a0301 100%);
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
     transform-style: preserve-3d;
     transform: perspective(300px);
@@ -72,7 +72,7 @@ footer {
     height: 15vw;
     display: block;
     background-color: #0a0301;
-    background-image: linear-gradient(135deg, #e521da 0%, #1e154a 100%, #0a0301 100%);
+    background-image: linear-gradient(135deg, #f2f61d 0%, #bb7d00 100%, #916d24 100%);
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
     transform-style: preserve-3d;
     transform: perspective(300px);
@@ -84,7 +84,7 @@ footer {
     text-align: center;
     vertical-align: middle;
     font-size: 25px;
-    color: white;
+    color: black;
     top: 50%;
     left: 50%;
     width: 50px;
