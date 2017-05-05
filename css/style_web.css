@@ -119,17 +119,17 @@
     color: #202020;
 }
 
-/* team section */
+/* about section */
 #about {
-    padding-top: 60px;
+    padding-top: 80px;
     text-align: center;
+    padding-bottom: 100px;
 }
 #about h1{
     font-size: 30px;
     line-height: 2px;
     color: aqua;
     font-weight: bold;
-    font-family: "PT Serif";
 }
 #about h3 {
     font-size: 18px;
