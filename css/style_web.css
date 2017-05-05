@@ -120,18 +120,26 @@
 }
 
 /* team section */
-#team {
+#about {
+    padding-top: 60px;
     text-align: center;
 }
-#team h3 {
+#about h1{
+    font-size: 30px;
+    line-height: 2px;
+    color: aqua;
+    font-weight: bold;
+    font-family: "PT Serif";
+}
+#about h3 {
     font-size: 18px;
     line-height: 4px;
 }
-#team h4 {
+#about h4 {
     color: #5C5C5C;
     padding-top: 24px;
 }
-#team .col-md-4 {
+#about .col-md-4 {
     padding-top: 42px;
 }
 

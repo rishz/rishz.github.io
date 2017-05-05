@@ -32,10 +32,5 @@ $(function(){
         $(".navbar-collapse").collapse('hide');
     });
 
-  // NIVO LIGHTBOX
-  $('#gallery a').nivoLightbox({
-        effect: 'fadeScale',
-    });
-
 });
 
