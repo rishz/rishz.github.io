@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/style_web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/scriptBar.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -15,20 +16,46 @@
 </head>
 <body>
 
-<nav id="header" class="navbar navbar-fixed-top">
-    <div id="header-container" class="container navbar-container">
+<!--<section class="preloader">-->
+    <!--<div class="sk-spinner sk-spinner-pulse"></div>-->
+<!--</section>-->
+
+<!--<nav id="header" class="navbar navbar-fixed-top">-->
+    <!--<div id="header-container" class="container navbar-container">-->
+        <!--<div class="navbar-header">-->
+            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"-->
+                    <!--aria-expanded="false" aria-controls="navbar">-->
+                <!--<span class="sr-only">Toggle navigation</span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+            <!--<a id="brand" class="navbar-brand" data-hover="<Rishabh Shukla>" data-active="Rishabh Shukla" href="#">Rishabh Shukla</a>-->
+        <!--</div>-->
+        <!--<div id="navbar" class="collapse navbar-collapse navbar-right">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li class="active"><a href="#">Home</a></li>-->
+                <!--<li><a href="#about" class="smoothScroll">About</a></li>-->
+                <!--<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>-->
+                <!--<li><a href="#skills" class="smoothScroll">Skills</a></li>-->
+                <!--<li><a href="#resume" class="smoothScroll">Resume</a></li>-->
+                <!--<li><a href="#contact" class="smoothScroll">Contact</a></li>-->
+            <!--</ul>-->
+        <!--</div>&lt;!&ndash; /.nav-collapse &ndash;&gt;-->
+    <!--</div>&lt;!&ndash; /.container &ndash;&gt;-->
+<!--</nav>-->
+
+<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+    <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+                <span class="glyphicon glyphicon-chevron-right" style="color:green;"></span>
+
             </button>
-            <a id="brand" class="navbar-brand" href="#">Rishabh Shukla</a>
+            <a class="navbar-brand" href="#">Rishabh Shukla</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse navbar-right">
-            <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse" id="navMain">
+            <ul class="nav navbar-nav pull-right">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about" class="smoothScroll">About</a></li>
                 <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
@@ -36,37 +63,81 @@
                 <li><a href="#resume" class="smoothScroll">Resume</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
             </ul>
-        </div><!-- /.nav-collapse -->
-    </div><!-- /.container -->
-</nav>
+        </div>
+    </div>
+</div>
+
 <script src="scripts/scriptBar.js"></script>
 
 
 <section id="home" class="parallax-section">
     <div class="container">
 
-        <div class="col-md-3 col-sm-3 wow fadeInUp">
-            <div class="js-tilt-android col-md-2 col-sm-2" data-tilt-glare="false" data-tilt-perspective="1000" data-tilt-scale="1.3"
-                 data-tilt-speed="400" data-tilt-max="25">
-                <div class="js-tilt-inner-android">Android Developer</div>
-            </div>
-            <div class="js-tilt-web col-md-2 col-sm-2" data-tilt-glare="false" data-tilt-perspective="1000" data-tilt-scale="1.3"
-                 data-tilt-speed="400" data-tilt-max="25">
-                <div class="js-tilt-inner-web">Web Developer</div>
-            </div>
-        </div>
-
-        <div class="col-md-6 col-sm-6 wow fadeInUp">
             <div class="col-md-12 col-sm-12">
                 <h1>rishz.github.io</h1>
                 <h2>Rishabh Shukla</h2>
-                <a href="#about" class="smoothScroll btn btn-default">ABOUT</a>
+                <a href="#about" class="smoothScroll btn btn-default">ABOUT ME</a>
+                <ul class="social-icon icons-home">
+                    <li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
+                    <li><a href="#" class="fa fa-dribbble wow bounceIn" data-wow-delay="0.9s"></a></li>
+                    <li><a href="#" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
+                </ul>
             </div>
-        </div>
-
 
     </div>
 </section>
+
+<section id="team" class="parallax-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3 col-sm-3 wow fadeInUp">
+                <div class="js-tilt-android col-md-2 col-sm-2" data-tilt-glare="false" data-tilt-perspective="1000" data-tilt-scale="1.3"
+                     data-tilt-speed="400" data-tilt-max="25">
+                    <div class="js-tilt-inner-android">Android Developer</div>
+                </div>
+                <div class="js-tilt-web col-md-2 col-sm-2" data-tilt-glare="false" data-tilt-perspective="1000" data-tilt-scale="1.3"
+                     data-tilt-speed="400" data-tilt-max="25">
+                    <div class="js-tilt-inner-web">Web Developer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="parallax-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                <h2 class="heading">Contact Info.</h2>
+                <div class="ph">
+                    <p><i class="fa fa-phone"></i> Contact</p>
+                    <h4>+91 8587816801</h4>
+                </div>
+                <div class="address">
+                    <p><i class="fa fa-map-marker"></i> Location</p>
+                    <h4>120 Duis aute irure, California, USA</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                <h2 class="heading">Open Hours</h2>
+                <p>Sunday <span>10:30 AM - 10:00 PM</span></p>
+                <p>Mon-Fri <span>9:00 AM - 8:00 PM</span></p>
+                <p>Saturday <span>11:30 AM - 10:00 PM</span></p>
+            </div>
+            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+                <h2 class="heading">Follow Us</h2>
+                <ul class="social-icon">
+                    <li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
+                    <li><a href="#" class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>
+                    <li><a href="#" class="fa fa-behance wow bounceIn" data-wow-delay="0.9s"></a></li>
+                    <li><a href="#" class="fa fa-dribbble wow bounceIn" data-wow-delay="0.9s"></a></li>
+                    <li><a href="#" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <section id="copyright">
     <div class="container">

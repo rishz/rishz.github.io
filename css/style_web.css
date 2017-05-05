@@ -55,7 +55,7 @@
 
 /* home section */
 #home {
-    background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/home-bg.jpg') 50% 100% repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
@@ -71,21 +71,38 @@
     height: 100vh;
     text-align: center;
 }
+#home .fa{
+    width: 48px;
+    height: 48px;
+}
 #home h1 {
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 7px;
     font-style: normal;
-    padding-top: 50px;
-    padding-left: 5px;
-
+    padding-top: 0px;
+    padding-left: 9px;
 }
 #home h2{
     font-family: "Arial Black", sans-serif;
-    font-size: 40px;
+    font-size: 70px;
+    text-decoration: gold;
     letter-spacing: 3px;
     font-weight:100;
-    padding-left: 10px;
+    color: aqua;
+    padding-left: 9px;
+
+
 }
+/*#home .btn .btn-default{*/
+    /*padding-right: 100px;*/
+/*}*/
+
+
+#home .icons-home{
+    padding-left: 12px;
+    padding-top: 60px;
+}
+
 #home .btn {
     background: transparent;
     border-radius: 0;
@@ -95,7 +112,6 @@
     letter-spacing: 2px;
     padding: 16px 42px;
     margin-top: 40px;
-
     transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
@@ -233,9 +249,9 @@ footer .fa {
     padding: 0;
 }
 .social-icon li a {
-    background: #f0f0f0;
+    background: #e4d821;
     border-radius: 50%;
-    color: #5C5C5C;
+    color: #000000;
     font-size: 16px;
     width: 48px;
     height: 48px;
@@ -250,7 +266,7 @@ footer .fa {
     padding: 0;
 }
 .social-icon li a:hover {
-    background: #F6D76B;
+    background: aqua;
     top: 5px;
 }
 

@@ -4,7 +4,8 @@ body {
 }
 
 body {
-    padding-top: 100px;
+    padding-top: 50px;
+    background-color: #000000;
 }
 
 footer {
@@ -17,6 +18,57 @@ footer {
 
 .navbar-container {
     padding: 20px 0 20px 0;
+}
+
+#brand .navbar-brand:hover{
+
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #e4d821;
+}
+
+.nav .navbar-nav .pull-right li a{
+    color: aqua;
+}
+
+.opaque-navbar {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 10px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: #000000;
+    height: 50px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+    body
+    {
+        background:red;
+    }
+    .opaque-navbar {
+        background-color: black;
+        height: 60px;
+        transition: background-color .5s ease 0s;
+    }
+
+}
+
+.navbar-header{
+    background-color: transparent;
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
@@ -38,8 +90,8 @@ footer {
 .navbar.navbar-fixed-top.fixed-theme,
 .navbar-brand,
 .navbar-container {
-    transition: 0.8s;
-    -webkit-transition: 0.8s;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
 }
 
 .js-tilt-android {
