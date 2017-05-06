@@ -108,7 +108,7 @@ body{
 }
 
 /* Animation */
-.anim-typewriter .loaded{
+.anim-typewriter{
     animation: typewriter 5s steps(15) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
 }
@@ -121,7 +121,7 @@ body{
     to{border-right-color: transparent;}
 }
 
-.anim-typewriter2 .loaded{
+.anim-typewriter2{
     animation: typewriter2 5s steps(44) 1s 1 normal both,
     blinkTextCursor2 500ms steps(44) infinite normal;
 }
