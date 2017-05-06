@@ -120,14 +120,28 @@
 }
 
 /* about section */
+
+.bio{
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+    font-weight: normal;
+    color: white;
+    text-align: left;
+}
+#about .heading{
+    font-family: "Arial Black";
+    font-size: 30px;
+    text-decoration: dashed;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
 #about {
     padding-top: 80px;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 #about h1{
     font-size: 30px;
-    line-height: 2px;
     color: aqua;
     font-weight: bold;
 }
@@ -141,6 +155,109 @@
 }
 #about .col-md-4 {
     padding-top: 42px;
+}
+
+/*Skills section*/
+
+#skills .heading{
+    font-family: "Arial Black";
+    font-size: 30px;
+    text-decoration: dashed;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#skills {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+#skills h1{
+    font-size: 30px;
+    color: aqua;
+    font-weight: bold;
+}
+#skills h3 {
+    font-size: 18px;
+    line-height: 4px;
+}
+#skills h4 {
+    color: #5C5C5C;
+    padding-top: 24px;
+}
+#skills .col-md-4 {
+    padding-top: 42px;
+}
+
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width:100%;
+    background: rgba(250, 250, 250,0.2);
+    height:35px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+    width:110px;
+    font-weight:bold;
+    font-size:15px;
+    color:#ffffff;
+    background:#6adcfa;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:4px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+    display:block;
+    background: rgba(0, 0, 0, 0);
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+    height:35px;
+    width:0px;
+    background:#6adcfa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:15px;
+    height:35px;
+    line-height:35px;
+    color: rgba(255, 255, 255, 0.86);
 }
 
 /* menu section */
