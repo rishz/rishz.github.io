@@ -27,7 +27,7 @@ body{
     padding: 12px 17px;
     margin: 25px;
     font-family: 'OpenSansBold', sans-serif;
-    border: 3px solid #31302B;
+    border: 3px solid #ffffff;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -45,6 +45,35 @@ body{
 .button_sliding:hover
 {
     box-shadow: inset 200px 0 0 0 #ffffff;
+    text-decoration: none;
+}
+
+#skills .button_sliding{
+    color: #ffffff;
+    width: 400px;
+    background: #000000;
+    padding: 12px 17px;
+    margin: 25px;
+    font-family: 'OpenSansBold', sans-serif;
+    border: 3px solid #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+#skills .button_sliding:hover
+{
+    color: #000000;
+    box-shadow: inset 400px 0 0 0 #ffffff;
     text-decoration: none;
 }
 

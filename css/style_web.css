@@ -129,10 +129,10 @@
     text-align: left;
 }
 #about .heading{
-    font-family: "Arial Black";
     font-size: 30px;
-    text-decoration: dashed;
-    font-weight: bold;
+    letter-spacing: 7px;
+    font-style: normal;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 #about {
@@ -160,10 +160,10 @@
 /*Skills section*/
 
 #skills .heading{
-    font-family: "Arial Black";
     font-size: 30px;
-    text-decoration: dashed;
-    font-weight: bold;
+    letter-spacing: 7px;
+    font-style: normal;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 #skills {
