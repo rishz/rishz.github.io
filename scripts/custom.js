@@ -2,8 +2,15 @@
 // preloader
 
 $(window).on('load',function(){
-    $('.preloader').fadeOut(100); // set duration in brackets
+    $('.preloader').fadeOut(5000); // set duration in brackets
 });
+
+
+$(document).ready(function () {
+    $('#id1').addClass("line-1 anim-typewriter name");
+    $('#id2').addClass("line-1 anim-typewriter2 dev-info");
+});
+
 
 /* HTML document is loaded. DOM is ready. 
 -------------------------------------------*/
