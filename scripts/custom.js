@@ -1,5 +1,6 @@
 
 // preloader
+
 $(window).on('load',function(){
     $('.preloader').fadeOut(2000); // set duration in brackets
 });
@@ -19,9 +20,9 @@ $(function(){
   function initParallax() {
     $('#home').parallax("100%", 0.1);
     $('#about').parallax("100%", 0.3);
-    $('#portfolio').parallax("100%", 0.2);
+    // $('#portfolio').parallax("100%", 0.2);
     $('#skills').parallax("100%", 0.3);
-    $('#resume').parallax("100%", 0.1);
+    // $('#resume').parallax("100%", 0.1);
     $('#contact').parallax("100%", 0.1);
 
   }
