@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
 
 /*html,*/
 /*body {*/
@@ -18,7 +19,7 @@ body{
     height: calc(100vh - 8em);
     padding: 4em;
     color: rgba(255,255,255,.75);
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Poppins', sans-serif;
     background-color: rgb(25,25,25);
 }
 .button_sliding{
@@ -107,6 +108,10 @@ body{
     transform: translateY(0%);
 }
 
+.container{
+    padding-top: 3rem;
+}
+
 /* Animation */
 .anim-typewriter{
     animation: typewriter 4s steps(15) 1s 1 normal both,
@@ -171,7 +176,7 @@ footer {
 
 .opaque-navbar.opaque {
     background-color: #000000;
-    height: 50px;
+    height: 97px;
     transition: background-color .5s ease 0s;
 }
 
