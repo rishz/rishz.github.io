@@ -55,7 +55,7 @@
 
 /* home section */
 #home {
-    background: url('../images/home-bg.jpg') 50% 100% repeat-y fixed;
+    /* background: url('../images/home-bg.jpg') 50% 100% repeat-y fixed; */
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
@@ -115,8 +115,6 @@
     transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
-    background: #ffffff;
-    color: #202020;
 }
 
 /* about section */
